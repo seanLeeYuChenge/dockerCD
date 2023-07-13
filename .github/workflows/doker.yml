@@ -11,8 +11,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: yillkid
-        password: xxxxxxxx
+        username: sean456
+        password: dckr_pat_mwbKuUqLxCzlUObNYRJ52NLW33s
     - name: Build and push Docker images
       uses: docker/build-push-action@v2
       with:
